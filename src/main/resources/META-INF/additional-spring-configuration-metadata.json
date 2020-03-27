@@ -1,11 +1,17 @@
 {
   "properties": [
-    {
-      "name": ""
-      com.fasterxml.jackson.module
-      ",
-      "type": "java.lang.String",
-      "description": "Description for "
-      com.fasterxml.jackson.module.
+    ,
+{
+  "name": "github.client.secret",
+  "type": "java.lang.String",
+  "description": "Description for github.client.secret."
+}
+{
+  "name": ""
+  com.fasterxml.jackson.module
+  ",
+  "type": "java.lang.String",
+  "description": "Description for "
+  com.fasterxml.jackson.module.
     "}}
 ] }

@@ -9,9 +9,7 @@ public class GithubUser {   //GithubUser其实是GitHubProvider类的返回值
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) { this.name = name; }
 
     public Long getId() {
         return id;
@@ -27,5 +25,14 @@ public class GithubUser {   //GithubUser其实是GitHubProvider类的返回值
 
     public void setBio(String bio) {
         this.bio = bio;
+    }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
     }
 }

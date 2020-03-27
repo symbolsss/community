@@ -11,9 +11,7 @@ public class AccessTokenDTO {    //DTO：数据传输模型的缩写
         return client_id;
     }
 
-    public void setClient_id(String client_id) {
-        this.client_id = client_id;
-    }
+    public void setClient_id(String client_id) { this.client_id = client_id; }
 
     public String getClient_secret() {
         return client_secret;
